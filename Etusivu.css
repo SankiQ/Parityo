@@ -1,0 +1,111 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+    }
+
+    /* Ylänavigaatio */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      border-bottom: 2px solid purple;
+      padding: 10px 20px;
+    }
+
+    .navbar input {
+      width: 400px;
+      padding: 6px;
+      border: 1px solid purple;
+      border-radius: 4px;
+      background: transparent;
+      color: white;
+    }
+
+    .navbar-right a {
+      color: white;
+      margin-left: 10px;
+      text-decoration: none;
+      border: 1px solid purple;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    /* Hero-osio */
+    .hero {
+      position: relative;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+    }
+
+    .hero h1 {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3rem;
+      color: white;
+      text-shadow: 0 0 10px purple;
+    }
+
+    /* Kuvagalleria */
+    .gallery {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .gallery h2 {
+      margin-bottom: 10px;
+    }
+
+    .gallery img {
+      width: 80%;
+      border-radius: 8px;
+      box-shadow: 0 0 20px purple;
+    }
+
+    .gallery-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      gap: 30px;
+    }
+
+    .gallery-links a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Footer */
+    footer {
+      background-color: black;
+      padding: 20px;
+      border-top: 1px solid gray;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .social-icons {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .authors {
+      margin-top: 10px;
+    }
+
+    .authors p {
+      margin: 2px 0;
+    }
