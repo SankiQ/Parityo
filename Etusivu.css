@@ -5,7 +5,7 @@
       color: white;
     }
 
-    /* Ylänavigaatio */
+    /* Navibaari */
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -34,14 +34,14 @@
       font-size: 14px;
     }
 
-    /* Hero-osio */
-    .hero {
+    /* Etusivu-osio */
+    .etusivu {
       position: relative;
       text-align: center;
     }
 
-    .hero img {
-      width: 100%;
+    .etusivu img {
+      width: 70%;
       height: auto;
     }
 
@@ -108,4 +108,7 @@
 
     .authors p {
       margin: 2px 0;
+    }
+    .h2 {
+      text-align: center;
     }
